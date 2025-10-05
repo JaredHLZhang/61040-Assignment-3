@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amimi Call</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="call-screen">
+      <div class="avatars">
+        <div class="avatar girl">Amy</div>
+        <div class="avatar boy">Jay</div>
+      </div>
+      <div class="call-status">In Call...</div>
+      <div id="transcript-box">
+        <pre id="transcript-text"></pre>
+      </div>
+      <button id="end-call">End Call</button>
+    </div>
+
+    <div id="style-modal" class="hidden">
+      <div class="modal-content">
+        <h2>Choose Image Style</h2>
+        <input id="style-input" type="text" placeholder="e.g. pixel art" />
+        <div class="modal-actions">
+          <button id="cancel-style">Cancel</button>
+          <button id="confirm-style">Generate</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="storyboard" class="hidden">
+      <div class="scene-image">
+        <img id="scene-img" alt="Scene" />
+      </div>
+      <div class="scene-text">
+        <h2 id="scene-title"></h2>
+        <p id="scene-narration"></p>
+      </div>
+      <div class="story-controls">
+        <button id="prev-scene">Previous</button>
+        <button id="next-scene">Next</button>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
+

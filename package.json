@@ -1,0 +1,10 @@
+{
+  "name": "amimi-ai-genstory-service",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "bash ./scripts/run_local.sh"
+  }
+}
+
+
