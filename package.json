@@ -1,0 +1,23 @@
+{
+  "name": "amimi-memory-concept",
+  "version": "1.0.0",
+  "description": "AI-augmented memory concept for long-distance couples",
+  "main": "dist/memory-tests.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/memory-tests.js",
+    "dev": "ts-node --transpile-only memory-tests.ts",
+    "test": "npm run build && node dist/memory-tests.js"
+  },
+  "keywords": ["gemini", "ai", "memory", "couple", "typescript"],
+  "author": "Amimi",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
